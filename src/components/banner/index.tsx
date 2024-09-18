@@ -7,11 +7,11 @@ import {
   ButtonCarousel
 } from "./styles";
 
-import banner1 from "../../img/banner1.jpg";
-import banner2 from "../../img/banner2.jpg";
-import banner3 from "../../img/banner3.jpg";
-import banner4 from "../../img/banner4.jpg";
-import banner5 from "../../img/banner5.jpg";
+import banner1 from "../../img/banner/banner1.jpg";
+import banner2 from "../../img/banner/banner2.jpg";
+import banner3 from "../../img/banner/banner3.jpg";
+import banner4 from "../../img/banner/banner4.jpg";
+import banner5 from "../../img/banner/banner5.jpg";
 
 const banners = [banner1, banner2, banner3, banner4, banner5];
 

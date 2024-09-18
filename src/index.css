@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: 'Alegreya', serif;
+  background-color: #745236;
 }
 
 .italic-text {
