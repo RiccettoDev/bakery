@@ -54,3 +54,39 @@ export const Menu = styled.button`
     margin-right: -1em;
   }
 `;
+
+export const Overlay = styled.div`
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+`;
+
+export const ModalContainer = styled.div`
+  background-color: #352317;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 40%;
+  height: 100vh;
+  z-index: 100;
+
+  @media (max-width: 480px) {
+    width: 70%;
+  }
+`;
+
+export const CloseButton = styled.button`
+  background-color: #352317;
+  border: none;
+  position: absolute;
+  top: 2em;
+  right: 1em;
+
+  & :hover {
+    opacity: 40%;
+  }
+`;
