@@ -6,6 +6,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 2em;
   background-color: #745236;
   color: #FFFFFF;
+
+  @media (max-width: 480px) {
+    height: 100vh;
+  }
 `;

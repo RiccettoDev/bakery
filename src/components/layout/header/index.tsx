@@ -11,7 +11,7 @@ import {
   CloseButton
 } from "./styles";
 
-import logo from "../../img/logo.png"
+import logo from "../../../img/logo.png"
 
 export function Header() {
   const [modalIsVisible, setModalIsVisible] = useState(false)

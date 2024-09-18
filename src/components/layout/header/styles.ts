@@ -8,6 +8,8 @@ export const Container = styled.div`
   justify-content: space-between;
   padding: 36px;
   background-color: #352317;
+  position: fixed;
+  z-index: 500;
 
   @media (max-width: 480px) {
     height: 65px;
