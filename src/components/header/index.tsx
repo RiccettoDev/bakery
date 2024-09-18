@@ -8,7 +8,7 @@ export function Header() {
       <Img src={logo} alt="logo" />
       <Title>Cheirinho de Felicidade</Title>
       <Menu>
-        <GiHamburgerMenu color="#DAE1AB" size={60} style={{ marginRight: "2em" }} />
+        <GiHamburgerMenu color="#DAE1AB" size={50} style={{ marginRight: "2em" }} />
       </Menu>
     </Container>
   )
