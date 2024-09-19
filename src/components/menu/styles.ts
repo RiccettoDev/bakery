@@ -69,8 +69,7 @@ export const BoxImg = styled.div`
   padding-bottom: 0.5em;
 
   @media (max-width: 480px) {
-    width: 90%;
-    max-height: 250px;
+    display: none;
   }
 `;
 
