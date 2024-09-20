@@ -87,8 +87,34 @@ export const CloseButton = styled.button`
   position: absolute;
   top: 2em;
   right: 1em;
-
+  
   & :hover {
     opacity: 40%;
+  }
+  `;
+
+export const ContainerMenu = styled.div`
+  width: 100%;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  padding: 42px;
+  color: #DAE1AB;
+  
+  @media (max-width: 480px) {
+  }
+`;
+
+export const ButtonMenu = styled.button`
+  border: none;
+  background: none;
+  color: #DAE1AB;
+  margin-left: -9em;
+
+  &:Hover {
+    opacity: 50%;
+  }
+  
+  @media (max-width: 480px) {
   }
 `;

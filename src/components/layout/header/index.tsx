@@ -8,7 +8,9 @@ import {
   Menu,
   ModalContainer,
   Overlay,
-  CloseButton
+  CloseButton,
+  ContainerMenu,
+  ButtonMenu
 } from "./styles";
 
 import logo from "../../../img/logo.png"
@@ -45,6 +47,21 @@ export function Header() {
             <CloseButton onClick={closeModal}>
               <IoIosCloseCircle color="#DAE1AB" size={30} />
             </CloseButton>
+            <ContainerMenu>
+              <h1>Menu</h1>
+              <ButtonMenu>
+                <h2>Inicio</h2>
+              </ButtonMenu>
+              <ButtonMenu>
+                <h2>História</h2>
+              </ButtonMenu>
+              <ButtonMenu>
+                <h2>Cardápio</h2>
+              </ButtonMenu>
+              <ButtonMenu>
+                <h2>Fale Conosco</h2>
+              </ButtonMenu>
+            </ContainerMenu>
           </ModalContainer>
         </Overlay>
       )}
