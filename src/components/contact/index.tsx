@@ -11,7 +11,7 @@ import { RiInstagramFill } from "react-icons/ri";
 
 export function Contact() {
   return (
-    <Container>
+    <Container id="Contact">
       <h1>Fale Conosco</h1>
       <Input type="text" placeholder="Nome" />
       <Input type="text" placeholder="E-mail" />

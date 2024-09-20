@@ -16,13 +16,13 @@ export const Container = styled.div`
 export const ContainerMenu = styled.div`
   width: 95%;
   display: flex;
-  gap: 4px;
+  gap: 10px;
 
   @media (max-width: 480px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 35px;
   }
 `;
 

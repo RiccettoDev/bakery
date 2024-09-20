@@ -71,9 +71,9 @@ export function Menu() {
   }
 
   return (
-    <Container>
+    <Container id="Menu">
       <h1>Nosso Cardápio</h1>
-      <h2>Trabalhas com os melhores e mais variados produtos</h2>
+      <h2 style={{ textAlign: "center", marginBottom: "2em" }}>Trabalhas com os melhores e mais variados produtos</h2>
       <ContainerMenu>
         <Box onClick={selectImg1}>
           <Img src={bread} alt="bread" />

@@ -10,7 +10,7 @@ import founder from "../../img/founder.jpg"
 
 export function History() {
   return (
-    <Container>
+    <Container id="History">
       <InfoLeft>
         <h1>Nossa fachada</h1>
 

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 105%;
+  width: 125%;
   display: flex;
   justify-content: center;
   position: relative; /* Importante para garantir que o Overlay e o Carousel estejam na posição correta */

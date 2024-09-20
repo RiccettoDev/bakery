@@ -12,6 +12,7 @@ import {
   ContainerMenu,
   ButtonMenu
 } from "./styles";
+import { Link } from 'react-scroll'
 
 import logo from "../../../img/logo.png"
 
@@ -33,6 +34,13 @@ export function Header() {
     }
   }
 
+  const handleLinkClick = () => {
+    if (location.pathname !== '/') {
+      window.location.href = '/' // Redireciona para o path raiz '/'
+    }
+    closeModal()
+  }
+
 
   return (
     <Container>
@@ -49,18 +57,58 @@ export function Header() {
             </CloseButton>
             <ContainerMenu>
               <h1>Menu</h1>
-              <ButtonMenu>
-                <h2>Inicio</h2>
-              </ButtonMenu>
-              <ButtonMenu>
-                <h2>História</h2>
-              </ButtonMenu>
-              <ButtonMenu>
-                <h2>Cardápio</h2>
-              </ButtonMenu>
-              <ButtonMenu>
-                <h2>Fale Conosco</h2>
-              </ButtonMenu>
+              <Link
+                activeClass="active"
+                to="Init"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+                onClick={handleLinkClick}
+              >
+                <ButtonMenu>
+                  <h2>Inicio</h2>
+                </ButtonMenu>
+              </Link>
+              <Link
+                activeClass="active"
+                to="History"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+                onClick={handleLinkClick}
+              >
+                <ButtonMenu>
+                  <h2>História</h2>
+                </ButtonMenu>
+              </Link>
+              <Link
+                activeClass="active"
+                to="Menu"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+                onClick={handleLinkClick}
+              >
+                <ButtonMenu>
+                  <h2>Cardápio</h2>
+                </ButtonMenu>
+              </Link>
+              <Link
+                activeClass="active"
+                to="Contact"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+                onClick={handleLinkClick}
+              >
+                <ButtonMenu>
+                  <h2>Fale Conosco</h2>
+                </ButtonMenu>
+              </Link>
             </ContainerMenu>
           </ModalContainer>
         </Overlay>

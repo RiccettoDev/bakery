@@ -109,12 +109,13 @@ export const ButtonMenu = styled.button`
   border: none;
   background: none;
   color: #DAE1AB;
-  margin-left: -9em;
+  margin-left: 9em;
 
   &:Hover {
     opacity: 50%;
   }
   
   @media (max-width: 480px) {
+    margin-left: 2em;
   }
 `;

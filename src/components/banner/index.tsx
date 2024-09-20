@@ -40,7 +40,7 @@ export function Banner() {
   }, [nextBanner]);
 
   return (
-    <Container>
+    <Container id="Init">
       <Img src={imgBanner} alt="banner" />
       <Overlay />
       <ContainerMenuCarousel>
