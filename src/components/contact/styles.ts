@@ -48,6 +48,21 @@ export const InputText = styled.input`
   }
 `;
 
+export const Send = styled.button`
+  background-color: #352317;
+  color: #DAE1AB;
+  border: none;
+  border-radius: 15px;
+  padding: 12px;
+
+  &:hover {
+    opacity: 50%;
+  }
+
+  @media (max-width: 480px) {
+  }
+`;
+
 export const ContainerIcons = styled.div`
   width: 95%;
   display: flex;
